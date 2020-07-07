@@ -3,3 +3,4 @@
 export(all_actions)
 export(check)
 export(info)
+export(long_running)
