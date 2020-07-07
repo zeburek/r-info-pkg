@@ -6,7 +6,7 @@
 #' Show all main arifmetical actions
 #' @export
 all_actions <- function(x, y) {
-  infopkg::info()
+  info()
   cat("Sum: ", x + y, "\n")
   cat("Ded: ", x - y, "\n")
   cat("Mul: ", x * y, "\n")
