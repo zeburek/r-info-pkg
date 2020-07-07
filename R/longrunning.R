@@ -6,6 +6,7 @@
 #' Long running task
 #' @param number: Define number of iterations
 #' @return array of numbers
+#' @export
 long_running <- function(number) {
   sapply(rnorm(number), function(val) {
     for (v in rnorm(number)) {
