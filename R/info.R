@@ -13,6 +13,7 @@ pkg_env$infos <- 0
 info <- function() {
   pkg_env$infos <- pkg_env$infos + 1
   cat("InfoPkg 0.0.1 version\n")
+  devtools::session_info()
 }
 
 #' Print number of info requests

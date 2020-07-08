@@ -8,6 +8,7 @@
 #' @return array of numbers
 #' @export
 long_running <- function(number) {
+  info()
   sapply(rnorm(number), function(val) {
     for (v in rnorm(number)) {
       val <- val * v
