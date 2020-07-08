@@ -16,3 +16,5 @@ RoxygenNote: 7.1.1
 Imports:
     devtools,
     yaml
+Suggests:
+    testthat
